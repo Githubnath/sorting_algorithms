@@ -1,15 +1,15 @@
-C - Sorting algorithms & Big O
+# C - Sorting algorithms & Big O
 
 
-In this project, I implemented several different sorting algorithms
+In this project, I implemented several different sorting algorithms.
 
 
-Tests heavy_check_mark
+# Tests heavy_check_mark
 
 tests: Folder of test files.
 
 
-Helper Files raised_hands
+# Helper Files raised_hands
 
 print_array.c: C function that prints an array of integers.
 print_list.c: C function that prints a listint_t doubly-linked list.
@@ -31,31 +31,31 @@ typedef struct listint_s
 
 
 
-Tasks page_with_curl
+# Tasks page_with_curl
 
 
-0. Bubble sort
+# 0. Bubble sort
 
 0-bubble_sort.c: C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
 Prints the array after each swap.
 0-O: Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
 
 
-1. Insertion sort
+# 1. Insertion sort
 
 1-insertion_sort_list.c: C function that sorts a listint_t doubly-linked list of integers in ascending order using the Insertion Sort algorithm.
 Prints the list after each swap.
 1-O: Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
 
 
-2. Selection sort
+# 2. Selection sort
 
 2-selection_sort.c: C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
 Prints the array after each swap.
 2-O: Text file containing the best, average, and worst case time complexities of the Selection Sort algorithm, one per line.
 
 
-3. Quick sort
+# 3. Quick sort
 
 3-quick_sort.c: C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
 Implements the Lomuto partition scheme.
@@ -64,21 +64,21 @@ Prints the array after each swap.
 3-O: Text file containing the best, average, and worst case time complexities of the Quick Sort Lomuto Partition scheme algorithm, one per line.
 
 
-4. Shell sort - Knuth Sequence
+# 4. Shell sort - Knuth Sequence
 
 100-shell_sort.c: C function that sorts an array of integers in ascending order using the Shell sort algorithm.
 Implements the Knuth interval sequence.
 Prints the array each time the interval is decreased.
 
 
-5. Cocktail shaker sort
+# 5. Cocktail shaker sort
 
 101-cocktail_sort_list.c: C function that sorts a listint_t doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
 Prints the list after each swap.
 101-O: Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
 
 
-6. Counting sort
+# 6. Counting sort
 
 102-counting_sort.c: C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
 Assumes that the array will only contain numbers >= 0.
@@ -86,7 +86,7 @@ Prints the counting array after it has been initialized.
 102-O: Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
 
 
-7. Merge sort
+# 7. Merge sort
 
 103-merge_sort.c: C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
 Implements the top-down Merge Sort algorithm.
@@ -96,7 +96,7 @@ Prints subarrays each time they are merged.
 103-O: Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
 
 
-8. Heap sort
+# 8. Heap sort
 
 104-heap_sort.c: C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
 Implements the sift-down Heap Sort algorithm.
@@ -104,7 +104,7 @@ Prints the array after each swap.
 104-O: Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
 
 
-9. Radix sort
+# 9. Radix sort
 
 105-radix_sort.c: C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
 Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
@@ -114,7 +114,7 @@ Prints the array for each significant digit increase.
 
 
 
-10. Bitonic sort
+# 10. Bitonic sort
 
 106-bitonic_sort.c: C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
 Assumes that size is a power of 2 (ie. size can be expressed as 2^k where k >= 0).
@@ -122,7 +122,7 @@ Prints subarrays each time they are merged.
 106-O: Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
 
 
-11. Quick Sort - Hoare Partition scheme
+# 11. Quick Sort - Hoare Partition scheme
 
 107-quick_sort_hoare.c: C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
 Implements the Hoare partition scheme.
@@ -131,7 +131,7 @@ Prints the array after each swap.
 107-O: Text file containing the best, average, and worst case time complexities of the Quick Sort Hoare Partition cheme algorithm, one per line.
 
 
-12. Dealer
+# 12. Dealer
 
 1000-sort_deck.c: C function that sorts a deck_node_t doubly-linked list deck of cards.
 Assumes that there are exactly 52 elements in the doubly-linked list.
